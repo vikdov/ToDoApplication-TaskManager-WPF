@@ -9,7 +9,6 @@ Key Features:
 - **Exception Handling:** Implements robust error handling to secure the application against various exceptions at all stages of operation.
 
 This application not only meets academic requirements but also provides practical functionalities for managing tasks efficiently.
-Database Provider:
 The Task Manager Application utilizes Microsoft Access as its backend database provider.
 Ensure the appropriate version of Microsoft Access Database Engine is installed based on your system architecture (32-bit or 64-bit).
 You can download the Access Database Engine from the official Microsoft website if it is not included with your Office installation.
