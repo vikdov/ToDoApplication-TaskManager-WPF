@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:TASKMANAGER"
         mc:Ignorable="d"
         Title="Window1" Height="400" Width="600"
+        WindowStartupLocation="Manual"
+        Left="400" Top="220"
         MinWidth="600" MinHeight="400">
     <Window.Resources>
         <!-- Style for Labels -->

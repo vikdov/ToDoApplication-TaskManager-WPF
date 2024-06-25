@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:TASKMANAGER"
         mc:Ignorable="d"
         Title="Task Manager" Height="400" Width="600"
+        WindowStartupLocation="Manual"
+        Left="430" Top="240"
         MinWidth="550" MinHeight="326">
     <Window.Resources>
 

@@ -33,17 +33,17 @@ namespace TASKMANAGER
             if (timeFilter == "Today")
             {
                 startDate = DateTime.Today;
-                endDate = startDate.AddDays(1).AddTicks(-1);
+                endDate = startDate.Date.AddDays(1).AddTicks(-1);
             }
             else if (timeFilter == "Week")
             {
-                startDate = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek);
-                endDate = startDate.AddDays(7).AddTicks(-1);
+                startDate = DateTime.Today;
+                endDate = startDate.Date.AddDays(7).AddTicks(-1);
             }
             else if (timeFilter == "Month")
             {
-                startDate = new DateTime(DateTime.Today.Year, DateTime.Today.Month, 1);
-                endDate = startDate.AddMonths(1).AddTicks(-1);
+                startDate = DateTime.Today;
+                endDate = startDate.Date.AddMonths(1).AddTicks(-1);
             }
 
             if (timeFilter != "All Time")
@@ -52,6 +52,7 @@ namespace TASKMANAGER
                 parameters.Add(startDate.ToString("yyyy-MM-dd"));
                 parameters.Add(endDate.ToString("yyyy-MM-dd"));
             }
+
             TaskOperations.LoadTasks(dataGrid, query, parameters.ToArray());
         }
 
