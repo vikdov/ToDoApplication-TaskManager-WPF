@@ -14,6 +14,7 @@ The Task Manager Application utilizes Microsoft Access as its backend database p
 Ensure the appropriate version of Microsoft Access Database Engine is installed based on your system architecture (32-bit or 64-bit).
 You can download the Access Database Engine from the official Microsoft website if it is not included with your Office installation.
 If you encounter any issues during installation or operation, contact me at GitHub.
+
 ![ezgif-2-b2acff622d](https://github.com/vikdov/WPF-Task-Manager/assets/158165237/91889503-c44e-4cb4-a61f-c3ea978f3769)
 
 
