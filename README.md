@@ -9,8 +9,9 @@ Key Features:
 - **Exception Handling:** Implements robust error handling to secure the application against various exceptions at all stages of operation.
 
 This application not only meets academic requirements but also provides practical functionalities for managing tasks efficiently.
+![ezgif-2-b2acff622d](https://github.com/vikdov/WPF-Task-Manager/assets/158165237/1aa70f1e-e9b0-4bfe-b551-cc47c54aaed8)
 
 
 
-https://github.com/vikdov/WPF-Task-Manager/assets/158165237/03f249fe-aa25-436a-a637-95873e04c131
+
 
