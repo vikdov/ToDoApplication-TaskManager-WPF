@@ -1,0 +1,152 @@
+﻿<Window x:Class="TASKMANAGER.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TASKMANAGER"
+        mc:Ignorable="d"
+        Title="Task Manager" Height="400" Width="600"
+        MinWidth="550" MinHeight="326">
+    <Window.Resources>
+
+        <Style x:Key="LabelStyle" TargetType="Label">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0,-7,0,0"/>
+        </Style>
+
+        <Style x:Key="SmallLabelStyle" TargetType="Label" BasedOn="{StaticResource LabelStyle}">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="86"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Background" Value="#E8E8E8"/>
+        </Style>
+
+        <Style x:Key="LargeButtonStyle" TargetType="Button" BasedOn="{StaticResource ButtonStyle}">
+            <Setter Property="Width" Value="134"/>
+            <Setter Property="Height" Value="30"/>
+        </Style>
+        
+        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="96"/>
+            <Setter Property="Height" Value="30"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#BEC3EF">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Task Manager" 
+               Style="{StaticResource LabelStyle}" 
+               Grid.Column="1" 
+               Grid.RowSpan="2"/>
+
+        <Label Content="Filter By:" 
+               Style="{StaticResource SmallLabelStyle}" />
+
+
+        <ComboBox x:Name="FilterPriority" 
+                  Style="{StaticResource ComboBoxStyle}" 
+                  SelectedIndex="3" 
+                  Grid.Row="1" 
+                  SelectionChanged="FilterPriority_SelectionChanged">
+            <ComboBoxItem Content="High"/>
+            <ComboBoxItem Content="Medium"/>
+            <ComboBoxItem Content="Low"/>
+            <ComboBoxItem Content="All priorities"/>
+        </ComboBox>
+
+        <Button x:Name="BTDelete" 
+                Style="{StaticResource ButtonStyle}" 
+                Content="Delete" 
+                Grid.Row="7" 
+                Click="BTDelete_Click"/>
+
+        <DataGrid x:Name="DataGrid" 
+                  VerticalAlignment="Stretch"
+                  HorizontalAlignment="Stretch"
+                  Grid.Row="1" 
+                  Grid.Column="1" 
+                  d:ItemsSource="{d:SampleData ItemCount=14}" 
+                  AutoGenerateColumns="False" 
+                  Grid.ColumnSpan="2"  
+                  Grid.RowSpan="7" 
+                  Margin="0,3,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}"/>
+                <DataGridCheckBoxColumn Header="IsCompleted" Binding="{Binding IsCompleted}"/>
+                <DataGridTextColumn Header="TaskName" Binding="{Binding TaskName}"/>
+                <DataGridTextColumn Header="Priority" Binding="{Binding Priority}"/>
+                <DataGridTextColumn Header="DueDate" Binding="{Binding DueDate}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="BTSave" 
+                Style="{StaticResource ButtonStyle}" 
+                Content="Save" 
+                Grid.Row="6" 
+                Click="BTSave_Click"/>
+
+        <ComboBox x:Name="FilterTime" 
+                  Style="{StaticResource ComboBoxStyle}" 
+                  SelectedIndex="3" 
+                  Grid.Row="3" 
+                  SelectionChanged="FilterTime_SelectionChanged">
+            <ComboBoxItem Content="Today"/>
+            <ComboBoxItem Content="Week"/>
+            <ComboBoxItem Content="Month"/>
+            <ComboBoxItem Content="All Time"/>
+        </ComboBox>
+
+        <ComboBox x:Name="FilterIsComplete" 
+                  Style="{StaticResource ComboBoxStyle}" 
+                  SelectedIndex="2" 
+                  Grid.Row="2" 
+                  SelectionChanged="FilterIsComplete_SelectionChanged">
+            <ComboBoxItem Content="Completed"/>
+            <ComboBoxItem Content="Not Completed"/>
+            <ComboBoxItem Content="All Statuses"/>
+        </ComboBox>
+
+        <Button x:Name="BTClearFilter" 
+                Style="{StaticResource ButtonStyle}" 
+                Content="Clear Filters" 
+                Grid.Row="4" 
+                Click="BTClearFilter_Click"/>
+
+        <Button x:Name="BTAdd" 
+                Style="{StaticResource LargeButtonStyle}" 
+                Content="+ Add New" 
+                Grid.Row="7" 
+                Grid.Column="2"  
+                Click="BTAdd_Click"/>
+    </Grid>
+</Window>
