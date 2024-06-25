@@ -9,7 +9,7 @@ A project designed to fulfill the requirements of the "Programming in .NET Techn
 - **Adding Tasks:** Initiates a new window upon clicking the "Add Task" button, allowing users to define task parameters and input text in the designated textbox effortlessly.
 - **Database Integration:** Utilizes Microsoft Access as the backend database provider, leveraging SQL queries for effective data management.
 - **Exception Handling:** Implements robust error handling mechanisms to ensure application stability and security against various exceptions.
-- 
+
 ### Installation:
 
 Before installing the Task Manager Application, ensure the following prerequisites are met:
