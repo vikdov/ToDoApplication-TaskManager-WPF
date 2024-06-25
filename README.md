@@ -1,6 +1,6 @@
 ## Task Manager Application Overview
 
-This is a project designed to fulfill the requirements of the "Programming in .NET Technology" course at the University of Economics in Wrocław, this simple WPF application serves as a task manager. It features a user-friendly interface comprising buttons, combo boxes, and a DataGrid. The app was created using C# for the back-end, XAML for the front-end, and SQL to send queries to the Access database.
+ToDo App designed to fulfill the requirements of the "Programming in .NET Technology" course at the University of Economics in Wrocław, this simple WPF application serves as a task manager. It features a user-friendly interface comprising buttons, combo boxes, and a DataGrid. The app was created using C# for the back-end, XAML for the front-end, and SQL to send queries to the Access database.
 
 ### Key Features:
 
