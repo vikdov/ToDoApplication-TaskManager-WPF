@@ -1,0 +1,70 @@
+C:\Users\mrdov\source\repos\TASKMANAGER\bin\Debug\TASKMANAGER.exe.config
+C:\Users\mrdov\source\repos\TASKMANAGER\bin\Debug\TASKMANAGER.exe
+C:\Users\mrdov\source\repos\TASKMANAGER\bin\Debug\TASKMANAGER.pdb
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.AssemblyReference.cache
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\MainWindow.g.cs
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\App.g.cs
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\TASKMANAGER_MarkupCompile.cache
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\TASKMANAGER_MarkupCompile.lref
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\MainWindow.baml
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\TASKMANAGER.g.resources
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\TASKMANAGER.Properties.Resources.resources
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.GenerateResource.cache
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.CoreCompileInputs.cache
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\TASKMANAGER.exe
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\TASKMANAGER.pdb
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\AddTaskWindow.g.cs
+C:\Users\mrdov\source\repos\TASKMANAGER\obj\Debug\AddTaskWindow.baml
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\bin\Debug\TASKMANAGER.exe.config
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\bin\Debug\TASKMANAGER.exe
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\bin\Debug\TASKMANAGER.pdb
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.AssemblyReference.cache
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\MainWindow.g.cs
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\AddTaskWindow.g.cs
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\App.g.cs
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\TASKMANAGER_MarkupCompile.cache
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\TASKMANAGER_MarkupCompile.lref
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\MainWindow.baml
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\AddTaskWindow.baml
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\TASKMANAGER.g.resources
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\TASKMANAGER.Properties.Resources.resources
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.GenerateResource.cache
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.CoreCompileInputs.cache
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\TASKMANAGER.exe
+C:\Users\mrdov\OneDrive\Робочий стіл\TM\TASKMANAGER\obj\Debug\TASKMANAGER.pdb
+C:\TM\TASKMANAGER\bin\Debug\TASKMANAGER.exe.config
+C:\TM\TASKMANAGER\bin\Debug\TASKMANAGER.exe
+C:\TM\TASKMANAGER\bin\Debug\TASKMANAGER.pdb
+C:\TM\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.AssemblyReference.cache
+C:\TM\TASKMANAGER\obj\Debug\MainWindow.g.cs
+C:\TM\TASKMANAGER\obj\Debug\AddTaskWindow.g.cs
+C:\TM\TASKMANAGER\obj\Debug\App.g.cs
+C:\TM\TASKMANAGER\obj\Debug\TASKMANAGER_MarkupCompile.cache
+C:\TM\TASKMANAGER\obj\Debug\TASKMANAGER_MarkupCompile.lref
+C:\TM\TASKMANAGER\obj\Debug\MainWindow.baml
+C:\TM\TASKMANAGER\obj\Debug\AddTaskWindow.baml
+C:\TM\TASKMANAGER\obj\Debug\TASKMANAGER.g.resources
+C:\TM\TASKMANAGER\obj\Debug\TASKMANAGER.Properties.Resources.resources
+C:\TM\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.GenerateResource.cache
+C:\TM\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.CoreCompileInputs.cache
+C:\TM\TASKMANAGER\obj\Debug\TASKMANAGER.exe
+C:\TM\TASKMANAGER\obj\Debug\TASKMANAGER.pdb
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\bin\Debug\TASKMANAGER.exe.config
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\bin\Debug\TASKMANAGER.exe
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\bin\Debug\TASKMANAGER.pdb
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.AssemblyReference.cache
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\MainWindow.g.cs
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\AddTaskWindow.g.cs
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\App.g.cs
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\TASKMANAGER_MarkupCompile.cache
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\TASKMANAGER_MarkupCompile.lref
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\MainWindow.baml
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\AddTaskWindow.baml
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\TASKMANAGER.g.resources
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\TASKMANAGER.Properties.Resources.resources
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.GenerateResource.cache
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.CoreCompileInputs.cache
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\TASKMANAGER.exe
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\TASKMANAGER.pdb
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\Interop.ADOX.dll
+C:\Users\mrdov\OneDrive\Робочий стіл\TASKMANAGER\obj\Debug\TASKMANAGER.csproj.ResolveComReference.cache
