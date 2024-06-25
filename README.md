@@ -1,4 +1,5 @@
 Task Manager Application
+
 A project designed to fulfill the requirements of the "Programming in .NET Technology" course at the University of Economics in Wrocław, this simple WPF application serves as a task manager. It features a user-friendly interface comprising buttons, combo boxes, and a DataGrid.
 
 Key Features:
